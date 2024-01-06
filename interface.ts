@@ -8,13 +8,16 @@
   * 5. 构造函数
   */
 
+//  使用 type 命令定义一个函数类型
+ type Fun = (name: string, fn: (age: number) => void) => void;
+
 interface Person {
   name: string;
   age?: number;
   // 属性索引
   [propName: string]: any;
   say(): string;
-  walk: () => string;
+  walk?: () => string;
   eat?: { (x: boolean): string }
 }
 
@@ -25,6 +28,14 @@ const getPersonName = (person: Person) => {
 
 const setPersonName = (person: Teacher, name: string) => {
   person.name = name;
+}
+
+class User implements Person {
+  name = 'dell';
+
+  say(){
+    return 'hello'
+  }
 }
 
 const person = {
