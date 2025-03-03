@@ -1,3 +1,8 @@
+# JavaScript 模块化
+参考视频：[一小时速通JavaScript模块化，涵盖CommonJS与ES6模块化](https://www.bilibili.com/video/BV13W42197jR/)
+
+
+
 ## 参考视频和文章
 [尚硅谷 TypeScript 教程](https://www.bilibili.com/video/BV1Xy4y1v7S2)
 
