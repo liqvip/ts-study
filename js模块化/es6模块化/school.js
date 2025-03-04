@@ -10,4 +10,4 @@ function getCities(){
     return ['北京','上海','广州','深圳'];
 }
 
-export default {name, slogan, getTel}
+export {name, slogan, getTel}

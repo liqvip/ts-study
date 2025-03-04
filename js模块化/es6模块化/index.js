@@ -1,5 +1,3 @@
-import * as school from './school.js'
-import * as student from './student.js'
+import {name as schoolName, slogan} from './school.js'
 
-console.log(school.default.getTel());
-console.log(student);
+console.log(schoolName, slogan)
