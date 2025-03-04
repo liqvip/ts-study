@@ -16,5 +16,3 @@ module.exports = {
     getTel,
     getCities
 }
-
-console.log(arguments.callee.toString());

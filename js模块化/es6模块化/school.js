@@ -1,11 +1,13 @@
-export const name = '尚硅谷';
+const name = '尚硅谷';
 
-export const slogan = '让天下没有难学的技术';
+const slogan = '让天下没有难学的技术';
 
-export function getTel(){
+function getTel(){
     return '400-618-9090';
 }
 
 function getCities(){
     return ['北京','上海','广州','深圳'];
 }
+
+export default {name, slogan, getTel}

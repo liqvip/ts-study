@@ -1,3 +1,3 @@
-const school = require('./school');
+const {name: schoolName} = require('./school');
 
-console.log(school);
+console.log(schoolName);
