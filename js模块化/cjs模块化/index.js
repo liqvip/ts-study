@@ -1,3 +1,7 @@
-const {name: schoolName} = require('./school');
+const student = require('./student.js');
 
-console.log(schoolName);
+
+console.log(student.age);
+student.increment();
+student.increment();
+console.log(student.age);
